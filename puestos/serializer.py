@@ -6,4 +6,4 @@ from puestos.models import Puesto
 class PuestoSerializer(ModelSerializer):
     class Meta:
         model = Puesto
-        fields = ('id', 'nombre', 'descripcion')
+        fields = ('nombre', 'descripcion')
